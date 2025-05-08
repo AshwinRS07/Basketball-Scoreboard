@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Calc_font';
+  src: URL('font.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teamCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.teamName {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: auto;
+}
+
+.score {
+    height: 100px;
+    width: 130px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Calc_font', 'Courier New', Courier, monospace;
+    color: #F94F6D;
+    font-size: 80px;
+    padding: 2px;
+    margin: 10px 5px;
+    display: flex;
+    border-radius: 5px;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    background-color: #1B244A;
+    border: solid 1px #9aabd8;
+    border-radius: 5px;
+    color: #9aabd8;
+    font-family: 'Calc_font';
+    padding: 2px 3px;
+    height: 30px;
+    width: 40px;
+}
